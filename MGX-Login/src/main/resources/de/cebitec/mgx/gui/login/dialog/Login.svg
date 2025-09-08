@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="Icon_Login.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1391"
+     inkscape:window-height="1022"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="18.303087"
+     inkscape:cx="14.946705"
+     inkscape:cy="10.792114"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg10" />
+  <g
+     id="Gruppe_1"
+     data-name="Gruppe 1"
+     transform="matrix(0.18270314,0,0,0.22775424,-33.2485,-44.903753)">
+    <path
+       id="Icon_material-person-outline"
+       data-name="Icon material-person-outline"
+       d="m 29.457,11.849 a 6.316,6.316 0 0 1 6.157,6.465 6.316,6.316 0 0 1 -6.157,6.465 6.316,6.316 0 0 1 -6.157,-6.466 6.316,6.316 0 0 1 6.157,-6.465 m 0,27.705 c 8.708,0 17.886,4.494 17.886,6.465 v 3.386 H 11.571 v -3.385 c 0,-1.97 9.178,-6.465 17.886,-6.465 M 29.457,6 c -6.48,0 -11.729,5.51 -11.729,12.313 0,6.803 5.249,12.313 11.729,12.313 6.48,0 11.729,-5.51 11.729,-12.313 C 41.186,11.51 35.937,6 29.457,6 Z m 0,27.705 C 21.628,33.705 6,37.83 6,46.019 v 9.235 h 46.914 v -9.235 c 0,-8.189 -15.628,-12.314 -23.457,-12.314 z"
+       transform="translate(244.867,218.41)"
+       inkscape:connector-curvature="0"
+       style="fill:#4ca730" />
+    <path
+       id="Icon_awesome-arrow-right"
+       data-name="Icon awesome-arrow-right"
+       d="M 27.588,5.5 30.8,3.335 a 4.724,4.724 0 0 1 4.909,0 l 28.157,18.956 a 1.85,1.85 0 0 1 0,3.307 L 35.713,44.563 a 4.724,4.724 0 0 1 -4.909,0 L 27.588,42.4 a 1.864,1.864 0 0 1 0.058,-3.346 L 45.1,27.851 H 3.476 C 1.55,27.851 0,26.807 0,25.51 v -3.122 c 0,-1.3 1.55,-2.341 3.476,-2.341 H 45.1 L 27.646,8.847 A 1.856,1.856 0 0 1 27.588,5.5 Z"
+       transform="translate(181.981,226.051)"
+       inkscape:connector-curvature="0"
+       style="fill:#6f6f6f" />
+    <g
+       id="Layer_2"
+       data-name="Layer 2"
+       transform="translate(208.878,198.131)">
+      <g
+         id="invisible_box"
+         data-name="invisible box"
+         transform="translate(0.036,0.293)">
+        <rect
+           id="Rechteck_1"
+           data-name="Rechteck 1"
+           width="109.105"
+           height="103.152"
+           x="0"
+           y="0"
+           style="fill:none" />
+      </g>
+      <g
+         id="icons_Q2"
+         data-name="icons Q2"
+         transform="translate(4,4)">
+        <path
+           id="Pfad_2"
+           data-name="Pfad 2"
+           d="M 105.118,94.911 V 8.785 A 4.926,4.926 0 0 0 100.062,4 H 9.056 A 4.926,4.926 0 0 0 4,8.785 v 11.962 a 4.677,4.677 0 0 0 1.738,3.665 5.255,5.255 0 0 0 4.076,1.12 5.1,5.1 0 0 0 4.3,-5.024 V 13.57 H 95.006 V 90.126 H 14.112 V 82.949 A 4.677,4.677 0 0 0 12.374,79.284 5.255,5.255 0 0 0 8.3,78.164 5.1,5.1 0 0 0 4,83.188 V 94.911 A 4.926,4.926 0 0 0 9.056,99.7 h 91.006 a 4.926,4.926 0 0 0 5.056,-4.789 z"
+           transform="translate(-4,-4)"
+           inkscape:connector-curvature="0"
+           style="fill:#6f6f6f" />
+      </g>
+    </g>
+  </g>
+</svg>
