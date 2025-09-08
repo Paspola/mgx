@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+        <artifactId>MGX-gui</artifactId>
+        <groupId>de.cebitec.mgx.gui</groupId>
+        <version>2.0</version>
+    </parent>
+
+    <groupId>de.cebitec.mgx.gui</groupId>
+    <artifactId>MGX-NewickWriter</artifactId>
+    <packaging>bundle</packaging>
+
+    <name>MGX-NewickWriter</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>osgi.core</artifactId>
+            <version>8.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>de.cebitec.mgx.gui</groupId>
+            <artifactId>MGX-API</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <instructions>
+                        <Export-Package />
+                        <Import-Package>
+                            de.cebitec.mgx.api.model,
+                            de.cebitec.mgx.api.model.tree
+                        </Import-Package>
+                    </instructions>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>build-for-felix</id>
+            <dependencies>
+                <dependency>
+                    <groupId>org.apache.felix</groupId>
+                    <artifactId>org.apache.felix.main</artifactId>
+                    <version>4.0.3</version>
+                    <scope>provided</scope>
+                </dependency>
+                <!-- To include a shell:
+                <dependency>
+                    <groupId>org.apache.felix</groupId>
+                    <artifactId>org.apache.felix.gogo.shell</artifactId>
+                    <version>0.10.0</version>
+                </dependency>
+                -->
+            </dependencies>
+        </profile>
+        <profile>
+            <id>run-on-felix</id>
+            <dependencies>
+                <dependency>
+                    <groupId>org.apache.felix</groupId>
+                    <artifactId>org.apache.felix.main</artifactId>
+                    <version>4.0.3</version>
+                    <scope>provided</scope>
+                </dependency>
+                <!-- org.apache.felix:org.apache.felix.gogo.shell:0.6.1 useless from Maven since stdin is swallowed -->
+            </dependencies>
+        </profile>
+    </profiles>
+</project>
